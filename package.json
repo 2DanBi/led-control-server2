@@ -1,0 +1,25 @@
+{
+  "name": "ledcontrolserver2",
+  "version": "0.1.0",
+  "description": "studying led control form web server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "led",
+    "control"
+  ],
+  "author": "danbi9612@gamil.com",
+  "license": "MIT",
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "onoff": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
